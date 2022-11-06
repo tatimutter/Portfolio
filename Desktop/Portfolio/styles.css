@@ -37,20 +37,20 @@
 }
 
 
-.top-container h1 {
+h1 {
   margin: 50px auto 5px auto;;
   font-size: 4rem;
   color: #66BFBF;
-  line-height: 3;
+  line-height: 2.5;
 }
 
-.top-container h2 {
+/* h2 {
   font-size: 2.7rem;
   font-family: 'Josefin Sans', sans-serif;
   color: #66BFBF;
-  font-weight: normal;
   margin: 5px auto;
-}
+  font-weight: 400;
+} */
 
 
 
@@ -71,11 +71,12 @@
 
 
 .middle-container {
-  margin: 100px auto 100px 30px;
+  margin: 150px auto 100px 30px;
   text-align: left;
-  position: relative;
+  position: relative; 
   font-family: 'Josefin Sans', sans-serif;
   color: #66BFBF;
+  padding-top: 90px;
 }
 
  .middle-container h2 {
@@ -88,6 +89,7 @@
 }
 
 .middle-container .col-sm-8 {
+  margin-top: -30px;
   padding-right: 40px;
 }
 
@@ -104,7 +106,7 @@ p {
 
 
 
-.skill-row {
+/* .skill-row {
   width: 50%;
   margin: 100px auto;
   text-align: left;
@@ -121,7 +123,7 @@ p {
   width: 25%;
   float: right;
   margin-left: 30px;
-}
+} */
 
 
 
@@ -140,7 +142,7 @@ p {
   color: #66BFBF;
   font-weight: normal;
   margin: 5px auto;
-}
+} 
 
 h3 {
   color: #11999E;
@@ -160,22 +162,14 @@ a {
   position: absolute;
 }
 
-.bottom-container {
-  margin-bottom: 0;
-}
+
 
 .mountain {
   margin: 0 auto -4.5px;
 
 }
 
-.middle-container-2 {
-  background-color: white;
-  margin-top: 0;
-  margin-bottom: 0;
 
-
-}
 
 .profile {
   
@@ -187,17 +181,75 @@ a {
   color: #40514E;
 }
 
+.middle-bottom-container {
+  position: relative;
+  top: 60px;
+  padding: 60px 0 300px 0;
+  margin-bottom: 200px;
+  text-align: center;
+  object-position: center;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #EDEDD8;
 
+}
 
-.skills {
+.middle-bottom-container {
   padding-top: 100px;
 
 }
-.contact-me {
-  margin: 0 auto 10px auto;
-  background-color: white;
+
+.middle-bottom-container h2 {
+  font-size: 2.7rem;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+  margin: 5px auto;
+} 
+
+/* .skills h3 {
+  color: #66BFBF;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+ */
+.skills {
+ text-align: left;
+margin: 50px 100px 200px 0px;
+
+} 
+
+
+
+.skills img {
+  margin:10px 10px 10px 10px;
+  width: 60px;
+  align-items: left;
 }
 
+.skills .html {
+  width: 75px;
+  margin-right: 0;
+}
+
+
+.contact {
+  margin: 0 auto 10px auto;
+  background-color: #EDEDD8;
+  text-align: center;
+  padding-top:120px;
+  padding-bottom: 220px;
+ 
+}
+
+.contact h2 {
+  font-size: 2.7rem;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 40px
+}
 
 .btn {
   background: #11cdd4;
@@ -211,12 +263,13 @@ a {
   border-radius: 8px;
   color: #ffffff;
   font-size: 20px;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 20px 30px 20px;
   text-decoration: none;
-  margin: 10px auto 40px auto;
-  display: inline-block;
+  margin: 10px 45% 40px 45%;
+  display: inline-block ;
   font-family: 'Josefin Sans', sans-serif;
-
+  align-self: center;
+  
 }
 
 .btn:hover {
@@ -229,44 +282,61 @@ a {
   text-decoration: none;
 }
 
-.bottom-container-2 {
-  margin: 0 auto;
-  background-color: #66bfbf;
-  padding: 20px;
 
-
-}
 
 
 .contact-message {
   width: 40%;
   margin: 30px auto 40px;
 }
+
+
+.mr-2 {
+  float:right !important;
+  margin-top: 40px;
+  
+}
+
+.mr-2 img {
+  width: 40px;
+  
+}
+
+
+#github {
+  margin-right: 632px;
+  margin-left: 5px;
+  
+}
+
+.bottom-container {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .copyright {
-  color: #EAF6F6;
+  color: black;
   font-size: 0.75rem;
+  text-align: center;
 
 }
 
-
-
-.footer-link {
-  color: #11999E;
-  text-decoration: none;
-  line-height: 2;
-  font-size: 1.5rem;
-  margin: 10px 20px;
-
-}
 
 .credits {
-  margin: 8px auto 4px;
-  color: #EAF6F6;
+  margin: 5px auto 2px auto;
+  color: black;
   font-size: 0.75rem;
+  text-align: center;
 }
-.credits-link {
+
+
+#credits-links {
   text-decoration: none;
-  margin: 10px 20px;
+  margin: 0;
   color: #EAF6F6;
   font-size: 0.75rem;
 }
+
+
+
