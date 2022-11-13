@@ -21,62 +21,51 @@
 
 <body>
 
-  <nav class="navbar fixed-top navbar-expand-lg">
+  <nav class="navbar fixed-top navbar-expand-sm">
     <div class="container-fluid">
       <img class="position-absolute top-0 start-0 img-thumbnail profile-pic" src="images\s200_tatiana.motterle.jpg" alt="my picture in b&w">
       <a class="navbar-brand">Tatiana Motterle</a>
        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
+        
+        <div class="collapse navbar-collapse text-end" id="navbarTogglerDemo02">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#middle-container">About</a>
+              <a class="nav-link active" aria-current="page" href="#profile-point">About</a>
             </li>
             <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
             </li>
-
-            
-                
-                <!-- <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              </a>
-              <ul class="dropdown-menu">
-                
-                <li>
-                  <hr class="dropdown-divider">
-                </li> 
-                cambiamento a caso per fare nuovo commit
-                 -->
-                 
-                 
+               
           </ul>
           </div>
+        
+     
       </div>
 
 
-    </div>
+    
   </nav>
+
+
   
   <div class="top-container container-fluid">
     
-        <div class="btn-group-vertical float-sm-start" role="group" aria-label="Vertical button group">
+    
+        <div class="btn-group-vertical float-sm-start text-nowrap"  role="group" aria-label="Vertical button group">
           <a href="https://www.linkedin.com/in/tatiana-motterle/"><img class="linkedin" src="images/linkedin.png"> </a>
           <a href="https://github.com/tatimutter"><img class="github" src="images/github.png"> </a>
         </div>
-        <div class="container-sm">
-          <h1>I'm Tatiana Motterle</h1>
+        
+        <div class="container-fluid">
+                    <h1>I'm Tatiana Motterle</h1>
           <h2>Front-end Developer</h2>
         </div>
+    
   </div>
          
           
@@ -84,45 +73,50 @@
   
 
       
-  <div class="middle-container" id="middle-container">
-    <div class="row">
-      <div class="col-sm-8 profile">
+  <div class="middle-container container-fluid" id="middle-container">
+     <div class="row up">
+     <div class="col-8 profile" id="profile-point">
         <h2>About me</h2>
         <p>I am a front-end developer, presently attending a Fullstack bootcamp. <br> I have an academic background in Political Science, International Relations, Human Rights, and Social Sciences. <br> I mainly worked as an academic researcher but I have varied professional experiences and I am currently transitioning to a tech career.</p>
-      
-        <div class="skills">
-          <h2>My Skills</h2>
-                      <img class="html" src="images\html-5.png">
-          <img class="css" src="images\css-3.png">
-          <img class="javascript" src="images\java-script-logo.png">
-          <img class="node" src="images\node-js.png">
-          <img class="git" src="images\git.png">
-          <img class="github" src="images\github.png">
-          <img class="bootstrap" src="images\bootstrap.png">
-        </div>
+      <div id="skills"> 
+        <h2>My Skills</h2>
+        <img class="html" src="images\html-5.png">
+<img class="css" src="images\css-3.png">
+<img class="javascript" src="images\java-script-logo.png">
+<img class="node" src="images\node-js.png">
+<img class="git" src="images\git.png">
+<img class="github" src="images\github.png">
+<img class="bootstrap" src="images\bootstrap.png">
+</div>
       </div>  
-        
-        <div class="col-sm-4">
-        <img class="frontal-picture rounded-end" src="images\frontal_pic.jpg" alt="Frontal picture">
+        <div class="col-4 profile">
+        <img class="frontal-picture rounded-end" id="frontal-picture" src="images\frontal_pic.jpg" alt="Frontal picture">
       </div>
     
     </div>
-    
-      
-  </div>
   
-
-<!--   <div class="middle-bottom-container">
-    <h2>My Skills</h2>
-       <div class = "skills">
-        <img class="html" src="images\html-5.png">
+  
+ <!-- <div class="row down">
+ 
+ <div class="skills col-8">
+      <h2>My Skills</h2>
+                  <img class="html" src="images\html-5.png">
       <img class="css" src="images\css-3.png">
       <img class="javascript" src="images\java-script-logo.png">
       <img class="node" src="images\node-js.png">
       <img class="git" src="images\git.png">
       <img class="github" src="images\github.png">
       <img class="bootstrap" src="images\bootstrap.png">
-    </div> -->
+    </div>
+    <div class="col-4 skills">
+      
+    </div>
+  
+    </div>  -->
+  </div>
+  
+
+
    
   
 
