@@ -1,146 +1,174 @@
 body {
   overflow-x:hidden;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+  font-size: 7rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+  
+}  
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
 }
 
 .navbar {
   background-color: #66bfbf;
-  height: 70px;
+  height: 12vh;
+  font-size: 1.2rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
 
+}
+
+@media screen and (max-width: 768px) {
+  .navbar  {
+    height: 8vh;
+  }
+
+  
 }
 
 .profile-pic {
-  width: 60px;
-  height: 60px;
-  border-radius:50%;
-  margin: 3px auto auto 30px;
-  position: relative;
-
+  width: 5.2vw;
+ 
 }
 
+@media screen and (max-width: 768px) {
+.profile-pic {
+  width:8vw
+}
+}
+
+
+
+/* 
 .navbar-brand {
   position: relative;
+  margin-top: 15px;
   margin-left: 90px;
   color: #11999E;
 }
 
 .navbar-toggler {
   color: black;
+  border-width: 0px;
+  margin-right: 40px;
 }
 
+.navbar-collapse {
+  margin-right: 50px;
+}
+
+.nav-item{
+  margin-bottom: -10px;
+} */
 
 .top-container {
   position: relative;
-  top: 60px;
-  padding: 60px 0 200px 0;
   margin: 0;
   text-align: center;
   object-position: center;
   font-family: 'Josefin Sans', sans-serif;
   background-color: #EDEDD8;
+  height: 100vh;
+  align-items: center;
+  display: flex;
 }
 
-
-
-
-
 .top-container h1 {
-  margin: 50px auto 5px auto;;
-  font-size: 5vw;
-  color: #66BFBF;
-  line-height: 3;
+  font-size: 4rem;
+ 
+  line-height: 2;
 }
 
 .top-container h2 {
-  font-size: 3vw;
-  font-family: 'Josefin Sans', sans-serif;
-  color: #66BFBF;
-  font-weight: normal;
-  margin: 5px auto;
+  font-size: 3.5rem;
+  
+  
+  
 }  
+
+@media screen and (max-width: 768px) {
+  .top-container h1 {
+    font-size: 3rem;
+  }
+  .top-container h2 {
+    font-size: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .top-container  {
+    height: 50vh;
+  }
+}
+
+
 
 
 
 .btn-group-vertical {
   float:left !important;
-  margin-top: 9vw;
   
 }
 
 .linkedin {
-  width: 6vw;
-  margin-bottom: 10px;
+  width: 80px;
+
 }
-
-
 
 .github {
-  width: 6vw;
+  width: 80px;
+
 }
 
+
+@media screen and (max-width: 768px) {
+  .linkedin {
+    width: 40px;
+
+  }
+  .github {
+    width: 40px;
+
+  }
+}
+
+
+
+
+
 .middle-container {
-  margin: 11.1vw auto 7.5vw 2.2vw;
+  object-position: center;
   text-align: left;
   position: relative; 
   font-family: 'Josefin Sans', sans-serif;
   color: #66BFBF;
-  padding-top: 150px;
-  margin-top: -30px;
-  padding-right: 40px;
+  height: 100vh;
+ 
+} 
+
+@media screen and (max-width: 768px) {
+  .middle-container  {
+    height: 50vh;
+  }
 }
-
- .middle-container h2 {
-  font-size: 3vw;
-  font-family: 'Josefin Sans', sans-serif;
-  color: #66BFBF;
-  font-weight: normal;
-  margin: 5px auto;
-  
-}
-
-.up {
-margin-bottom: -50rw;
-}
-
-
-
-p {
-  line-height: 2;
-  font-size: 1.2vw;
-  padding-right: 80px;
-}
-
-
-#skills {
-  margin-top: 90px;
-}
-
-#frontal-picture {
-  width: 15vw;
-  
-  
-}
-
-
-
-h3 {
-  color: #11999E;
-}
-
-a {
-  color:#11999E;
-}
-
-
-.profile {
-  
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.profile p {
-  color: #40514E;
-}
-
 
 .middle-container img {
   margin:10px 10px 10px 10px;
@@ -154,23 +182,70 @@ a {
 }
 
 
+p {
+  color: #40514E;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 2;
+  font-size: 1.1rem;
+}
+
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 12px;
+    padding-right: 5px;
+
+  }
+}
+
+
+
+.up {
+  align-items: center;
+  object-position: center;
+  padding-top: 100px;
+   
+}
+
+#skills {
+  margin-top: 90px;
+} 
+
+
+#frontal-picture {
+  width: 300px;
+  
+}
+
+@media screen and (max-width: 600px) {
+  #frontal-picture {
+    width: 100px;
+    margin-top: 50px
+    
+
+  }
+}
+
+
+
 .contact {
-  margin: 0 auto 10px auto;
+  height: 70vh;
   background-color: #EDEDD8;
   text-align: center;
-  padding-top:120px;
-  padding-bottom: 220px;
+  object-position: center;
+  align-items: center;
+  padding-top: 40px;
  
 }
 
-.contact h2 {
-  font-size: 2.7rem;
-  font-family: 'Josefin Sans', sans-serif;
-  color: #66BFBF;
-  font-weight: normal;
-  text-align: center;
-  padding-top: 40px
+@media screen and (max-width: 768px) {
+  .contact  {
+    height: 20vh;
+  }
+ 
 }
+
+
 
 .btn {
   background: #11cdd4;
@@ -206,10 +281,7 @@ a {
 
 
 
-.contact-message {
-  width: 40%;
-  margin: 30px auto 40px;
-}
+
 
 
 .mr-2 {
@@ -231,9 +303,15 @@ a {
 }
 
 .bottom-container {
-  margin-top: 30px;
-  margin-bottom: 20px;
+ 
+  position: relative;
+  margin: 0;
   text-align: center;
+  object-position: center;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #EDEDD8;
+  height: 20vh;
+  align-items: center;
 }
 
 .copyright {
